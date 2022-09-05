@@ -1,0 +1,29 @@
+.phoneNavBar .icon {
+  color: #92d13d;
+  width: 6vw;
+  height: 4vh;
+  margin: 3px;
+}
+
+.phoneNavBar .container {
+  margin-right: 69px;
+}
+
+@media (max-width: 425px) {
+  .navbar .logoimg {
+    display: none;
+  }
+  .navbar-brand {
+    display: none;
+  }
+  .navbar {
+    height: 5vh;
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 425.5px) {
+  .phoneNavBar {
+    display: none;
+  }
+}
